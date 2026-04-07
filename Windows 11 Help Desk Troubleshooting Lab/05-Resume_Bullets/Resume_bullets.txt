@@ -1,0 +1,12 @@
+# Resume Bullets – Windows 11 Help Desk Lab
+
+- Built and documented a Windows 11 virtual lab environment (VMware Fusion) to simulate real-world help desk support scenarios
+- Diagnosed and resolved software installation issues by identifying insufficient user privileges and applying proper administrative access
+- Optimized system performance by analyzing startup applications and reducing boot-time resource consumption
+- Troubleshot DNS-related internet connectivity failures using ipconfig, ping, and nslookup to isolate name resolution issues
+- Resolved NTFS permission errors by reviewing and modifying folder security settings and user group membership
+- Identified and corrected Windows Defender Firewall rules blocking application network access
+- Diagnosed and restored printing functionality by restarting and validating the Print Spooler service
+- Used administrative tools (services.msc, compmgmt.msc, lusrmgr.msc, gpedit.msc) to manage users, services, and local policy
+- Applied structured troubleshooting methodology (identify → isolate → resolve → verify) across multiple support cases
+- Documented all incidents with root cause analysis and resolution steps to simulate real ticketing workflow
