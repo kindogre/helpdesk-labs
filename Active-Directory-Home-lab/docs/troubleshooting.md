@@ -1,0 +1,3 @@
+- GPO not visible → needed to expand domain correctly
+- Login failed → wrong account format
+- VM session glitch → Hyper-V console behavior

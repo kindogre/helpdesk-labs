@@ -1,0 +1,5 @@
+- Domain Controller: DC01
+- Client: Windows 11
+- Domain: corp.local
+- OU: Employees
+- Group: Restricted-Users
