@@ -22,6 +22,8 @@ I built a domain, joined client machines, created users/groups, and enforced sec
 - 1 Windows 11 Client
 - Domain: `corp.local`
 - Organizational Unit: `Employees`
+  ![Architecture Diagram](assets/diagram.png)
+
 
 
 ---
@@ -32,15 +34,19 @@ Created test users and applied role-based access control:
 - Users:
   - John Doe (Restricted)
   - Kim Smith (Normal)
+  ![User1](screenshots/33-Adding-new-employee.jpg)
+  ![User2](screenshots/34-Adding-another-employee.jpg)
 
 - Security Group:
   - `Restricted-Users`
+  ![Restricted-Users](screenshots/35-Created-Restricted-Users_Group.jpg)
 
 
 ---
 
 ## ⚙️ Group Policy (GPO)
 Created and applied GPO:
+![Created-new-GPO](screenshots/45-adding-new-GPO.jpg)
 
 ### 🎯 Policy Goal:
 Restrict specific users without affecting others
@@ -56,12 +62,20 @@ Restrict specific users without affecting others
 ### ✅ Test 1 — Restricted User (John Doe)
 - Policy applied successfully
 - Restrictions enforced
+ ![Restricted User](screenshots/36-Added-employee-to-RestrUsers-Group.jpg)
+ ![Logged as restricted user](screenshots/51-logged-as-JohnDoe.jpg)
+ ![Restricted control panel access](screenshots/52-try-to-open-Control-Panel-as-JohnDoe.jpg)
+ ![Verified via PowerShell](screenshots/53-verification.jpg)
+
+
 
 ---
 
 ### ✅ Test 2 — Normal User (Kim Smith)
 - No restrictions applied
 - System works normally
+  ![Logged as non-restricted user](screenshots/54-logged-as-KimSmith.jpg)
+  ![Accessed Control Panel](screenshots/55-accessed-Control-Panel-as-KimSmith.jpg)
 
 
 ---
