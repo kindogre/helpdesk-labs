@@ -88,6 +88,10 @@ Restrict specific users without affecting others
 ---
 
 ###✅ Test 3- Restricted User (John Doe)
+- Disabled command prompt for Restricted users
+- Restrictions enforced
+  ![Try to run PowerShell](screenshots/65-trying-to-run-powershell.jpg)
+  ![Denied](screenshots/66-denied.jpg)
 
 
 
