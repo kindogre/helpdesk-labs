@@ -41,6 +41,10 @@ Created test users and applied role-based access control:
   - `Restricted-Users`
   ![Restricted-Users](screenshots/35-Created-Restricted-Users_Group.jpg)
 
+- 🧩 Password Policy
+![password max age](screenshots/57-set-password-max-age.jpg)
+![password min length](screenshots/58-set-password-minimum-length.jpg)
+
 
 ---
 
@@ -48,12 +52,14 @@ Created test users and applied role-based access control:
 Created and applied GPO:
 ![Created-new-GPO](screenshots/45-adding-new-GPO.jpg)
 
+
 ### 🎯 Policy Goal:
 Restrict specific users without affecting others
 
 ### 🔒 Example Restriction:
 - Disabled Control Panel access
 - Restricted system features
+- Disabled Command prompt for Restricted users
 
 ---
 
@@ -76,6 +82,13 @@ Restrict specific users without affecting others
 - System works normally
   ![Logged as non-restricted user](screenshots/54-logged-as-KimSmith.jpg)
   ![Accessed Control Panel](screenshots/55-accessed-Control-Panel-as-KimSmith.jpg)
+
+
+
+---
+
+###✅ Test 3- Restricted User (John Doe)
+
 
 
 ---
