@@ -58,7 +58,7 @@ The design reflects practical responsibilities relevant to:
 
 ## 01. Dashboard
 
-![OPNsense Dashboard](screenshots/opnsense/01-Lobby-Dashboard.png)
+![OPNsense Dashboard](screenshots/OPNsense/01-Lobby-Dashboard.png)
 
 Main firewall overview showing platform health, running services, and system status.
 
@@ -66,7 +66,7 @@ Main firewall overview showing platform health, running services, and system sta
 
 ## 02. Interface Assignments
 
-![Interface Assignments](screenshots/opnsense/05-Interfaces-Assignments.png)
+![Interface Assignments](screenshots/OPNsense/05-Interfaces-Assignments.png)
 
 Physical and logical interfaces mapped to the correct networks and VLANs.
 
@@ -74,7 +74,7 @@ Physical and logical interfaces mapped to the correct networks and VLANs.
 
 ## 03. Interfaces Overview (View 1)
 
-![Interfaces Overview 1](screenshots/opnsense/06-Interfaces-Overview-01.png)
+![Interfaces Overview 1](screenshots/OPNsense/06-Interfaces-Overview-01.png)
 
 Segmented interface layout with dedicated networks for different trust levels.
 
@@ -82,7 +82,7 @@ Segmented interface layout with dedicated networks for different trust levels.
 
 ## 04. Interfaces Overview (View 2)
 
-![Interfaces Overview 2](screenshots/opnsense/06-Interfaces-Overview-02.png)
+![Interfaces Overview 2](screenshots/OPNsense/06-Interfaces-Overview-02.png)
 
 Additional view of the multi-network design and addressing layout.
 
@@ -90,7 +90,7 @@ Additional view of the multi-network design and addressing layout.
 
 ## 05. Admin Management Rules
 
-![Admin Management Rules](screenshots/opnsense/09-Firewall-Rules-ADMIN_MGMT.png)
+![Admin Management Rules](screenshots/OPNsense/09-Firewall-Rules-ADMIN_MGMT.png)
 
 Dedicated management path used for secure firewall administration and recovery access.
 
@@ -98,7 +98,7 @@ Dedicated management path used for secure firewall administration and recovery a
 
 ## 06. Guest Access Rules
 
-![Guest Access Rules](screenshots/opnsense/11-Firewall-Rules-VLAN_GuestAccess.png)
+![Guest Access Rules](screenshots/OPNsense/11-Firewall-Rules-VLAN_GuestAccess.png)
 
 Guest devices isolated from internal resources while retaining internet access.
 
@@ -106,7 +106,7 @@ Guest devices isolated from internal resources while retaining internet access.
 
 ## 07. Restricted Devices Rules
 
-![Restricted Devices Rules](screenshots/opnsense/12-Firewall-Rules-VLAN_RestrictedDevices.png)
+![Restricted Devices Rules](screenshots/OPNsense/12-Firewall-Rules-VLAN_RestrictedDevices.png)
 
 Low-trust network with tighter outbound controls and blocked access to sensitive internal systems.
 
@@ -114,7 +114,7 @@ Low-trust network with tighter outbound controls and blocked access to sensitive
 
 ## 08. Secure Users Rules
 
-![Secure Users Rules](screenshots/opnsense/13-Firewall-Rules-VLAN_SecureUsers.png)
+![Secure Users Rules](screenshots/OPNsense/13-Firewall-Rules-VLAN_SecureUsers.png)
 
 Higher-trust network used for primary personal or administrative devices.
 
@@ -122,7 +122,7 @@ Higher-trust network used for primary personal or administrative devices.
 
 ## 09. Standard Users Rules
 
-![Standard Users Rules](screenshots/opnsense/14-Firewall-Rules-VLAN_StandartUsers.png)
+![Standard Users Rules](screenshots/OPNsense/14-Firewall-Rules-VLAN_StandartUsers.png)
 
 Separate user zone for everyday devices with distinct access requirements.
 
@@ -130,7 +130,7 @@ Separate user zone for everyday devices with distinct access requirements.
 
 ## 10. WAN Rules
 
-![WAN Rules](screenshots/opnsense/15-Firewall-Rules-WAN.png)
+![WAN Rules](screenshots/OPNsense/15-Firewall-Rules-WAN.png)
 
 WAN-facing deny-by-default posture with no unnecessary inbound exposure.
 
@@ -138,7 +138,7 @@ WAN-facing deny-by-default posture with no unnecessary inbound exposure.
 
 ## 11. Firewall Aliases
 
-![Firewall Aliases](screenshots/opnsense/07-Firewall-Aliases.png)
+![Firewall Aliases](screenshots/OPNsense/07-Firewall-Aliases.png)
 
 Aliases used to simplify policy management and improve rule readability.
 
@@ -146,7 +146,7 @@ Aliases used to simplify policy management and improve rule readability.
 
 ## 12. Outbound NAT
 
-![Outbound NAT](screenshots/opnsense/08-Firewall-NAT-Outbound.png)
+![Outbound NAT](screenshots/OPNsense/08-Firewall-NAT-Outbound.png)
 
 Automatic outbound NAT supporting internet access across multiple internal networks.
 
@@ -154,7 +154,7 @@ Automatic outbound NAT supporting internet access across multiple internal netwo
 
 ## 13. LAN Rules
 
-![LAN Rules](screenshots/opnsense/10-Firewall-Rules-LAN.png)
+![LAN Rules](screenshots/OPNsense/10-Firewall-Rules-LAN.png)
 
 Firewall policies applied to the LAN / backbone side of the network design.
 
@@ -162,7 +162,7 @@ Firewall policies applied to the LAN / backbone side of the network design.
 
 ## 14. Advanced Firewall Settings
 
-![Advanced Firewall Settings](screenshots/opnsense/16-Firewall-Settigns-Advanced.png)
+![Advanced Firewall Settings](screenshots/OPNsense/16-Firewall-Settigns-Advanced.png)
 
 Advanced firewall behavior supporting hardened management access and custom policy design.
 
@@ -170,7 +170,7 @@ Advanced firewall behavior supporting hardened management access and custom poli
 
 ## 15. Suricata Netmap IPS Administration
 
-![Suricata Netmap IPS Administration](screenshots/opnsense/17-Services-SuricataNetmapIPS-Administration.png)
+![Suricata Netmap IPS Administration](screenshots/OPNsense/17-Services-SuricataNetmapIPS-Administration.png)
 
 Intrusion prevention configured on selected interfaces for active traffic inspection.
 
@@ -178,7 +178,7 @@ Intrusion prevention configured on selected interfaces for active traffic inspec
 
 ## 16. Suricata IDS Alert
 
-![Suricata IDS Alert](screenshots/opnsense/18-Services-SuricataIDS-EXPLOIT_ALERT.png)
+![Suricata IDS Alert](screenshots/OPNsense/18-Services-SuricataIDS-EXPLOIT_ALERT.png)
 
 Example alert demonstrating visibility into inspected traffic.
 
@@ -186,7 +186,7 @@ Example alert demonstrating visibility into inspected traffic.
 
 ## 17. Kea DHCPv4 Settings
 
-![Kea DHCPv4 Settings](screenshots/opnsense/19-Services-KeaDHCPv4-Settings.png)
+![Kea DHCPv4 Settings](screenshots/OPNsense/19-Services-KeaDHCPv4-Settings.png)
 
 DHCP service configuration supporting segmented client addressing.
 
@@ -194,7 +194,7 @@ DHCP service configuration supporting segmented client addressing.
 
 ## 18. Kea DHCPv4 Subnets
 
-![Kea DHCPv4 Subnets](screenshots/opnsense/20-Services-KeaDHCPv4-Subnets.png)
+![Kea DHCPv4 Subnets](screenshots/OPNsense/20-Services-KeaDHCPv4-Subnets.png)
 
 Separate DHCP scopes assigned per VLAN/subnet.
 
@@ -202,7 +202,7 @@ Separate DHCP scopes assigned per VLAN/subnet.
 
 ## 19. Unbound DNS General
 
-![Unbound DNS General](screenshots/opnsense/21-Services-UnboundDNS-General.png)
+![Unbound DNS General](screenshots/OPNsense/21-Services-UnboundDNS-General.png)
 
 Internal DNS resolver configuration used for controlled name resolution.
 
@@ -210,7 +210,7 @@ Internal DNS resolver configuration used for controlled name resolution.
 
 ## 20. Unbound DNS Advanced
 
-![Unbound DNS Advanced](screenshots/opnsense/22-Services-UnboundDNS-Advanced.png)
+![Unbound DNS Advanced](screenshots/OPNsense/22-Services-UnboundDNS-Advanced.png)
 
 Advanced resolver behavior and security-related DNS settings.
 
@@ -218,7 +218,7 @@ Advanced resolver behavior and security-related DNS settings.
 
 ## 21. Unbound DNS Access Lists
 
-![Unbound DNS Access Lists](screenshots/opnsense/23-Services-UnboundDNS-AccessLists.png)
+![Unbound DNS Access Lists](screenshots/OPNsense/23-Services-UnboundDNS-AccessLists.png)
 
 Resolver access restricted to approved internal networks only.
 
@@ -226,7 +226,7 @@ Resolver access restricted to approved internal networks only.
 
 ## 22. Backup Creation
 
-![Backup Creation](screenshots/opnsense/02-Backup-creation.png)
+![Backup Creation](screenshots/OPNsense/02-Backup-creation.png)
 
 Configuration backup process used before major changes or upgrades.
 
@@ -234,7 +234,7 @@ Configuration backup process used before major changes or upgrades.
 
 ## 23. Firmware Audit
 
-![Firmware Audit](screenshots/opnsense/03-System-Firmware-Audit-run-options.png)
+![Firmware Audit](screenshots/OPNsense/03-System-Firmware-Audit-run-options.png)
 
 Firmware audit and package validation workflow.
 
@@ -242,7 +242,7 @@ Firmware audit and package validation workflow.
 
 ## 24. Administration Settings
 
-![Administration Settings](screenshots/opnsense/04-System-Settings-Administration.png)
+![Administration Settings](screenshots/OPNsense/04-System-Settings-Administration.png)
 
 GUI management settings supporting secure administrative behavior.
 
@@ -252,7 +252,7 @@ GUI management settings supporting secure administrative behavior.
 
 ## 01. Topology
 
-![UniFi Topology](screenshots/unifi/01-Topology.png)
+![UniFi Topology](screenshots/UniFI/01-Topology.png)
 
 Overview of the switch, access point, and connected infrastructure.
 
@@ -260,7 +260,7 @@ Overview of the switch, access point, and connected infrastructure.
 
 ## 02. Wi-Fi Settings
 
-![UniFi WiFi Settings](screenshots/unifi/02-Settings-WiFi.png)
+![UniFi WiFi Settings](screenshots/UniFI/02-Settings-WiFi.png)
 
 Wireless configuration supporting segmented SSIDs and VLAN mapping.
 
@@ -268,7 +268,7 @@ Wireless configuration supporting segmented SSIDs and VLAN mapping.
 
 ## 03. Port Configuration
 
-![UniFi Ports](screenshots/unifi/03-Ports.png)
+![UniFi Ports](screenshots/UniFI/03-Ports.png)
 
 Switch port profiles used for trunking and VLAN transport.
 
@@ -276,7 +276,7 @@ Switch port profiles used for trunking and VLAN transport.
 
 ## 04. Client Devices
 
-![UniFi Client Devices](screenshots/unifi/04-Client-Devices.png)
+![UniFi Client Devices](screenshots/UniFI/04-Client-Devices.png)
 
 Managed visibility into connected endpoint devices.
 
@@ -284,7 +284,7 @@ Managed visibility into connected endpoint devices.
 
 ## 05. Networks and Wi-Fi
 
-![UniFi Networks and WiFi](screenshots/unifi/05-Network+WiFi.png)
+![UniFi Networks and WiFi](screenshots/UniFI/05-Network+WiFi.png)
 
 Relationship between networks, VLANs, and wireless SSIDs.
 
