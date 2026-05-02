@@ -12,8 +12,7 @@ The goal was to practice diagnosing, isolating, and resolving common desktop sup
 - Guest OS: Windows 11
 - Network: Segmented via OPNsense firewall (VLAN-based lab environment)
 - Tools Used: Command Prompt, PowerShell, Event Viewer, Services Manager, Windows Defender Firewall
- -[Setup](https://github.com/kindogre/it-support-portfolio/tree/main/Windows%2011%20Help%20Desk%20Troubleshooting%20Lab/03-Screenshots/Setup)
-
+ 
 ---
 
 ## Tickets Simulated
